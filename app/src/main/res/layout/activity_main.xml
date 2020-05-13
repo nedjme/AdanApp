@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/latTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:text="Latitude: "
+
+            />
+
+        <TextView
+            android:id="@+id/lonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude: " />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/l1"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/imsaak_layout"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/imsaak_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:text="Imsaak: "
+
+                />
+
+            <TextView
+                android:id="@+id/imsaak_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Value " />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Fajr_layout"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/Fajr_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:text="Fajr: "
+
+                />
+
+            <TextView
+                android:id="@+id/Fajr_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Value " />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:id="@+id/sunrise_layout"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/sunrise_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:text="Sunrise: "
+
+            />
+
+        <TextView
+            android:id="@+id/sunrise_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Value " />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/Zuhr_layout"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/Zuhr_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:text="Zuhr: "
+
+                />
+
+            <TextView
+                android:id="@+id/Zuhr_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Value " />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Asr_layout"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/Asr_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:text="Asr: "
+
+                />
+
+            <TextView
+                android:id="@+id/Asr_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Value " />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Maghrib_layout"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/Maghrib_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:text="Maghrib: "
+
+                />
+
+            <TextView
+                android:id="@+id/Maghrib_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Value " />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ISHA_layout"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/ISHA_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:text="ISHA: "
+
+                />
+
+            <TextView
+                android:id="@+id/ISHA_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Value " />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
